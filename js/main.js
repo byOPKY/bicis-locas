@@ -8,7 +8,7 @@ function validateForm(){
     var formControl = document.querySelector("select.form-control").value;
 
     if(name.length == 0 && lastname.length == 0 && inputEmail.length == 0 && inputPassword.length == 0)
-        alert("Ingrese los campos") else{
+        alert("Ingrese los campos") 
         //Email
         var email = document.getElementById("input-email").value;
         var expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
